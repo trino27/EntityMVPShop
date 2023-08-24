@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Data Source=DESKTOP-C4JUPMT;Initial Catalog=Cyber1UserData;Encrypt=False;Integrated Security=True"
+  }
+}
