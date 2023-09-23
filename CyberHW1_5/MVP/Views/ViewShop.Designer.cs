@@ -1,4 +1,4 @@
-﻿namespace CyberHW1_5.MVP.Views
+﻿namespace ShopMVP.MVP.Views
 {
     partial class ViewShop
     {

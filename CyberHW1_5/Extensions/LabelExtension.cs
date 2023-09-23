@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace CyberHW1_5.Extensions
+namespace ShopMVP.Extensions
 {
     internal static class LabelExtension
     {

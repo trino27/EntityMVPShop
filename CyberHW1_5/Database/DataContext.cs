@@ -1,8 +1,8 @@
-﻿using CyberHW1_5.Database.Entities;
+﻿using ShopMVP.Database.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace CyberHW1_5.Database
+namespace ShopMVP.Database
 {
     internal class DataContext : DbContext
     {
@@ -86,7 +86,7 @@ namespace CyberHW1_5.Database
             if (!optionsBuilder.IsConfigured)
             {
                 var builder = new ConfigurationBuilder();
-                builder.SetBasePath("E:\\Programming\\Csh_Education\\Entity_Framework_Core\\Homework\\CyberHW1\\CyberHW1_5\\Database\\");
+                builder.SetBasePath("E:\\Programming\\Csh_Education\\Entity_Framework_Core\\Homework\\CyberHW1\\ShopMVP\\Database\\");
                 builder.AddJsonFile("dataconfig.json");
                 var config = builder.Build();
 

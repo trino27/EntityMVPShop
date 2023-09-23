@@ -1,7 +1,7 @@
-﻿using CyberHW1_5.Database.Entities;
-using CyberHW1_5.MVP.Presenters;
+﻿using ShopMVP.Database.Entities;
+using ShopMVP.MVP.Presenters;
 
-namespace CyberHW1_5.MVP.Views
+namespace ShopMVP.MVP.Views
 {
     public partial class ViewAdminUserUpdate : Form
     {

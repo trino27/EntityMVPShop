@@ -1,6 +1,6 @@
-﻿using CyberHW1_5.MVP.Presenters;
+﻿using ShopMVP.MVP.Presenters;
 
-namespace CyberHW1_5.MVP.Views
+namespace ShopMVP.MVP.Views
 {
     public partial class ViewStart : Form
     {

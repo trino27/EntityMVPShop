@@ -1,6 +1,6 @@
-﻿using CyberHW1_5.Database.Entities;
-using CyberHW1_5.Migrations;
-using CyberHW1_5.MVP.Presenters;
+﻿using ShopMVP.Database.Entities;
+using ShopMVP.Migrations;
+using ShopMVP.MVP.Presenters;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace CyberHW1_5.MVP.Views
+namespace ShopMVP.MVP.Views
 {
     public partial class ViewAdminProductsUpdate : Form
     {

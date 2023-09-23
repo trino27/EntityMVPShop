@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 
-namespace CyberHW1_5.Database.Entities
+namespace ShopMVP.Database.Entities
 {
     public class User
     {

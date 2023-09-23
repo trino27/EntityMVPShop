@@ -1,7 +1,7 @@
-﻿using CyberHW1_5.MVP.Models;
-using CyberHW1_5.MVP.Views;
+﻿using ShopMVP.MVP.Models;
+using ShopMVP.MVP.Views;
 
-namespace CyberHW1_5.MVP.Presenters
+namespace ShopMVP.MVP.Presenters
 {
     internal class PresenterAdminMenu
     {

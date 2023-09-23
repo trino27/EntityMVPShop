@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CyberHW1_5.Migrations
+namespace ShopMVP.Migrations
 {
     /// <inheritdoc />
     public partial class ConnectUserProduct : Migration

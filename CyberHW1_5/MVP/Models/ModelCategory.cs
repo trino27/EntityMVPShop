@@ -1,12 +1,12 @@
-﻿using CyberHW1_5.Database;
-using CyberHW1_5.Database.Entities;
+﻿using ShopMVP.Database;
+using ShopMVP.Database.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.VisualBasic.Logging;
 using System.Collections.Generic;
-using static CyberHW1_5.Database.Entities.Error;
+using static ShopMVP.Database.Entities.Error;
 
-namespace CyberHW1_5.MVP.Models
+namespace ShopMVP.MVP.Models
 {
     internal class ModelCategory
     {

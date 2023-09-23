@@ -1,10 +1,10 @@
-﻿using CyberHW1_5.Database;
-using CyberHW1_5.Database.Entities;
+﻿using ShopMVP.Database;
+using ShopMVP.Database.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
-using static CyberHW1_5.Database.Entities.Error;
+using static ShopMVP.Database.Entities.Error;
 
-namespace CyberHW1_5.MVP.Models
+namespace ShopMVP.MVP.Models
 {
     internal class ModelUser
     {
@@ -133,7 +133,8 @@ namespace CyberHW1_5.MVP.Models
                     user.Phone = phone;
 
                     context.SaveChanges();
-                    catch (Exception ex)
+                }
+                catch (Exception ex)
                 {
                     context.errors.Add(new Error(ex.Message, "UpdateUser", StatusCode.Server));
                     context.SaveChanges();

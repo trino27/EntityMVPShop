@@ -2,9 +2,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
-using static CyberHW1_5.Database.Entities.Error;
+using static ShopMVP.Database.Entities.Error;
 
-namespace CyberHW1_5.Database.Entities
+namespace ShopMVP.Database.Entities
 {
     internal class Error
     {

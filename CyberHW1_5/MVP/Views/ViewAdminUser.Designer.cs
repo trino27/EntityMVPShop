@@ -1,4 +1,4 @@
-﻿namespace CyberHW1_5
+﻿namespace ShopMVP
 {
     partial class ViewAdminUser
     {

@@ -1,12 +1,12 @@
-﻿using CyberHW1_5.Database.Entities;
-using CyberHW1_5.Extensions;
-using CyberHW1_5.Migrations;
-using CyberHW1_5.MVP.Models;
-using CyberHW1_5.MVP.Views;
+﻿using ShopMVP.Database.Entities;
+using ShopMVP.Extensions;
+using ShopMVP.Migrations;
+using ShopMVP.MVP.Models;
+using ShopMVP.MVP.Views;
 using Microsoft.IdentityModel.Tokens;
 using System.Windows.Forms;
 
-namespace CyberHW1_5.MVP.Presenters
+namespace ShopMVP.MVP.Presenters
 {
     internal class PresenterAdminProductsUpdate
     {

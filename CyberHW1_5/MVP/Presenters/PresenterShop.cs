@@ -1,7 +1,7 @@
-﻿using CyberHW1_5.Database.Entities;
-using CyberHW1_5.Extensions;
-using CyberHW1_5.MVP.Models;
-using CyberHW1_5.MVP.Views;
+﻿using ShopMVP.Database.Entities;
+using ShopMVP.Extensions;
+using ShopMVP.MVP.Models;
+using ShopMVP.MVP.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
-namespace CyberHW1_5.MVP.Presenters
+namespace ShopMVP.MVP.Presenters
 {
     internal class PresenterShop
     {

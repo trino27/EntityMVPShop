@@ -1,8 +1,8 @@
-﻿using CyberHW1_5.MVP.Presenters;
+﻿using ShopMVP.MVP.Presenters;
 using System;
 using System.Collections.Generic;
 
-namespace CyberHW1_5.MVP.Views
+namespace ShopMVP.MVP.Views
 {
     public partial class ViewAdminMenu : Form
     {

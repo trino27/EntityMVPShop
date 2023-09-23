@@ -1,6 +1,6 @@
-using CyberHW1_5.MVP.Views;
+using ShopMVP.MVP.Views;
 
-namespace CyberHW1_5
+namespace ShopMVP
 {
     internal static class Program
     {

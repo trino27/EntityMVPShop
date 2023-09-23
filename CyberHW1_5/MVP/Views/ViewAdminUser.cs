@@ -1,7 +1,7 @@
-using CyberHW1_5.MVP.Presenters;
-using CyberHW1_5.MVP.Views;
+using ShopMVP.MVP.Presenters;
+using ShopMVP.MVP.Views;
 
-namespace CyberHW1_5
+namespace ShopMVP
 {
     public partial class ViewAdminUser : Form
     {
